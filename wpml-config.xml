@@ -1,0 +1,397 @@
+<wpml-config>
+	<taxonomies>
+		<taxonomy translate="1">product_brand</taxonomy>
+		<taxonomy translate="1">product_author</taxonomy>
+	</taxonomies>
+	<elementor-widgets>
+		<widget name="razzi-advanced-tabs">
+			<fields>
+				<field>tab_title_1</field>
+				<field>tab_title_2</field>
+				<field>tab_title_3</field>
+				<field>tab_title_4</field>
+			</fields>
+			<fields-in-item items_of="item_1">
+					<field>title_tag</field>
+					<field editor_type="LINK">link_tag>url</field>
+			</fields-in-item>
+			<fields-in-item items_of="item_2">
+				<field>title_tag</field>
+				<field editor_type="LINK">link_tag>url</field>
+			</fields-in-item>
+			<fields-in-item items_of="item_3">
+				<field>title_tag</field>
+				<field editor_type="LINK">link_tag>url</field>
+			</fields-in-item>
+			<fields-in-item items_of="item_4">
+				<field>title_tag</field>
+				<field editor_type="LINK">link_tag>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-banner">
+			<fields>
+				<field editor_type="LINK">image>url</field>
+				<field editor_type="AREA">sub_title</field>
+				<field editor_type="AREA">title</field>
+				<field editor_type="AREA">description</field>
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+				<field>button_text_2</field>
+				<field editor_type="LINK">link_2>url</field>
+				<field>text_box</field>
+				<field>price_box</field>
+				<field>unit_box</field>
+			</fields>
+		</widget>
+		<widget name="razzi-banner-carousel">
+			<fields-in-item items_of="elements">
+				<field editor_type="LINK">image>url</field>
+				<field>title</field>
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-banner-collection">
+			<fields>
+				<field editor_type="AREA">title</field>
+				<field editor_type="AREA">desc</field>
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+			</fields>
+		</widget>
+		<widget name="razzi-button">
+			<fields>
+				<field>text</field>
+				<field editor_type="LINK">link>url</field>
+			</fields>
+		</widget>
+		<widget name="razzi-category-box">
+			<fields>
+				<field editor_type="LINK">image>url</field>
+				<field>title</field>
+				<field editor_type="LINK">link>url</field>
+			</fields>
+			<fields-in-item items_of="sub_categories">
+				<field>sub_cat</field>
+				<field editor_type="LINK">sub_link>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-category-links">
+			<fields-in-item items_of="elements">
+				<field>title</field>
+				<field editor_type="LINK">link>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-deals-carousel">
+			<fields-in-item items_of="countdown_slider">
+				<field editor_type="AREA">title</field>
+				<field>button_text</field>
+				<field editor_type="LINK">button_link>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-deals-carousel-2">
+			<fields-in-item items_of="countdown_slider">
+				<field editor_type="AREA">deal</field>
+				<field editor_type="AREA">title</field>
+				<field>button_text</field>
+				<field editor_type="LINK">button_link>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-faq">
+			<fields-in-item items_of="elements">
+				<field>title</field>
+				<field editor_type="AREA">desc</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-featured-content">
+			<fields>
+				<field editor_type="LINK">image>url</field>
+				<fields-in-item items_of="featureds_el">
+					<field editor_type="AREA">title</field>
+					<field editor_type="AREA">desc</field>
+			</fields-in-item>
+			</fields>
+		</widget>
+		<widget name="razzi-heading">
+			<fields>
+				<field>title</field>
+				<field editor_type="LINK">link>url</field>
+			</fields>
+		</widget>
+		<widget name="razzi-instagram-grid-2">
+			<fields>
+				<field editor_type="AREA">title</field>
+				<field editor_type="AREA">desc</field>
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+			</fields>
+		</widget>
+		<widget name="razzi-image-box">
+			<fields>
+				<field editor_type="AREA">text</field>
+				<field editor_type="AREA">desc</field>
+				<field>number</field>
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+			</fields>
+		</widget>
+		<widget name="razzi-images-box-carousel-2">
+			<fields-in-item items_of="elements">
+				<field>title</field>
+				<field editor_type="AREA">desc</field>
+				<field editor_type="LINK">link>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-image-button">
+			<fields>
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+			</fields>
+		</widget>
+		<widget name="razzi-images-carousel">
+			<fields>
+				<field>heading</field>
+			</fields>
+			<fields-in-item items_of="elements">
+				<field>subtitle</field>
+				<field>title</field>
+				<field editor_type="LINK">link>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-images-carousel-2">
+			<fields-in-item items_of="elements">
+				<field editor_type="AREA">title</field>
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+				<field>sale_be_text</field>
+				<field>sale_text</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-image-content-box">
+			<fields>
+				<field>subtitle</field>
+				<field editor_type="AREA">title</field>
+				<field editor_type="AREA">desc</field>
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+			</fields>
+		</widget>
+		<widget name="razzi-icon-box">
+			<fields>
+				<field>title_text</field>
+				<field editor_type="AREA">description_text</field>
+				<field editor_type="LINK">link>url</field>
+			</fields>
+		</widget>
+		<widget name="razzi-icons-box-carousel">
+			<fields-in-item items_of="elements">
+				<field>title</field>
+				<field editor_type="LINK">link>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-isolate-slides">
+			<fields-in-item items_of="slides">
+				<field editor_type="AREA">before_title</field>
+				<field editor_type="AREA">title</field>
+				<field editor_type="AREA">after_title</field>
+				<field editor_type="AREA">description</field>
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-lookbook-banner">
+			<fields>
+				<field>product_lookbooks_ids_1</field>
+				<field>product_lookbooks_ids_2</field>
+				<field>product_lookbooks_ids_3</field>
+				<field>product_lookbooks_ids_4</field>
+			</fields>
+		</widget>
+		<widget name="razzi-lookbook-slider">
+			<fields-in-item items_of="slides">
+				<field editor_type="AREA">title</field>
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-map">
+			<fields-in-item items_of="elements">
+				<field>local</field>
+				<field>title</field>
+				<field editor_type="AREA">desc</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-newsletter-2">
+			<fields>
+				<field editor_type="AREA">title</field>
+				<field editor_type="AREA">desc</field>
+			</fields>
+		</widget>
+		<widget name="razzi-promo-box">
+			<fields>
+				<field editor_type="AREA">title</field>
+				<field editor_type="AREA">description_text</field>
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+				<field>regular_price</field>
+				<field>sale_price</field>
+			</fields>
+		</widget>
+		<widget name="razzi-popular-keywords">
+			<fields>
+				<field editor_type="AREA">title</field>
+			</fields>
+			<fields-in-item items_of="elements">
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-pricing-table">
+			<fields>
+				<field>title</field>
+				<field>price</field>
+				<field>after_price</field>
+				<field editor_type="AREA">desc</field>
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+				<field>featured_text</field>
+			</fields>
+		</widget>
+		<widget name="razzi-product-banner">
+			<fields>
+				<field editor_type="AREA">title</field>
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+				<field>regular_price</field>
+				<field>sale_price</field>
+				<field>badges</field>
+			</fields>
+		</widget>
+		<widget name="razzi-slides">
+			<fields-in-item items_of="slides">
+				<field editor_type="AREA">title</field>
+				<field editor_type="AREA">before_desc</field>
+				<field editor_type="AREA">description</field>
+				<field>button_text</field>
+				<field editor_type="LINK">link>url</field>
+				<field>button_text_2</field>
+				<field editor_type="LINK">link_2>url</field>
+				<field>sale_be_text</field>
+				<field>sale_text</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-sale-box">
+			<fields>
+				<field>content_text</field>
+				<field>content_number</field>
+				<field>content_unit</field>
+			</fields>
+		</widget>
+		<widget name="razzi-testimonials-carousel">
+			<fields-in-item items_of="elements">
+				<field editor_type="AREA">text</field>
+				<field editor_type="AREA">desc</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-testimonials-carousel-2">
+			<fields-in-item items_of="elements">
+				<field>subtitle</field>
+				<field editor_type="AREA">title</field>
+				<field editor_type="AREA">desc</field>
+				<field>customer</field>
+				<field>date</field>
+				<field>author_title</field>
+				<field>author_name</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-testimonials-grid">
+			<fields-in-item items_of="elements">
+				<field editor_type="AREA">desc</field>
+				<field>customer</field>
+				<field>date</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-product-tab">
+			<fields-in-item items_of="special_products_tabs">
+				<field>title</field>
+				<field>tab_button_text</field>
+				<field editor_type="LINK">tab_button_link>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-product-tab-grid">
+			<fields-in-item items_of="special_products_tabs">
+				<field>title</field>
+				<field>tab_button_text</field>
+				<field editor_type="LINK">tab_button_link>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-product-of-category">
+			<fields-in-item items_of="category_lists">
+				<field>title</field>
+				<field editor_type="LINK">link>url</field>
+			</fields-in-item>
+			<fields>
+				<field>heading</field>
+			</fields>
+		</widget>
+		<widget name="razzi-product-carousel">
+			<fields>
+				<field>heading</field>
+			</fields>
+		</widget>
+		<widget name="razzi-products-showcase">
+			<fields>
+				<field>title</field>
+				<field>sub_title</field>
+			</fields>
+		</widget>
+		<widget name="razzi-products-slider">
+			<fields-in-item items_of="slides">
+				<field editor_type="AREA">title</field>
+				<field>before_text</field>
+				<field>text</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-products-masonry">
+			<fields-in-item items_of="banners">
+				<field>title</field>
+				<field>sub_title</field>
+				<field editor_type="AREA">description</field>
+				<field>button_text</field>
+				<field editor_type="LINK">banner_link>url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="razzi-products-deal-2">
+			<fields>
+				<field>title</field>
+			</fields>
+		</widget>
+		<widget name="razzi-products-recently-viewed-carousel">
+			<fields>
+				<field editor_type="AREA">empty_product_description</field>
+				<field>empty_product_text</field>
+				<field editor_type="LINK">empty_product_link>url</field>
+			</fields>
+		</widget>
+		<widget name="razzi-products-recently-viewed-grid">
+			<fields>
+				<field editor_type="AREA">empty_product_description</field>
+				<field>empty_product_text</field>
+				<field editor_type="LINK">empty_product_link>url</field>
+			</fields>
+		</widget>
+		<widget name="razzi-products-with-banner">
+			<fields>
+				<field>title</field>
+				<field editor_type="AREA">description</field>
+				<field>button_text</field>
+				<field editor_type="LINK">banner_link>url</field>
+			</fields>
+		</widget>
+		<widget name="razzi-products-listing">
+			<fields>
+				<field>heading</field>
+			</fields>
+		</widget>
+	</elementor-widgets>
+</wpml-config>

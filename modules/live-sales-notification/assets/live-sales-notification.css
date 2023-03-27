@@ -1,0 +1,163 @@
+.live-sales-notification {
+	position: fixed;
+	left: 20px;
+	bottom: 20px;
+	z-index: 100000;
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+	display: flex;
+	justify-content: space-between;
+	max-width: 600px;
+}
+
+.live-sales-notification__close {
+	display: inline-flex;
+	padding: 10px 10px 0 10px;
+	cursor: pointer;
+}
+
+.live-sales-notification__content {
+	display: flex;
+	align-items: center;
+}
+
+.live-sales-notification__summary {
+	padding: 10px;
+	font-size: 14px;
+}
+
+.live-sales-notification__thumbnail {
+	max-width: 80px;
+}
+
+.live-sales-notification__thumbnail img {
+	display: block;
+}
+
+.sales-booter-popup__product {
+	font-weight: 500;
+	position: relative;
+}
+
+a.sales-booter-popup__product::after {
+	display: inline-block;
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 1px;
+	transition: .3s;
+	background-color: #111111;
+}
+
+a.sales-booter-popup__product:hover::after {
+	left: 0;
+	right: auto;
+	width: 100%;
+}
+
+.live-sales-notification__bottom {
+	font-size: 13px;
+	margin: 6px 0;
+}
+
+.live-sales-notification__link{
+	display: inline-block;
+	font-weight: 500;
+	position: relative;
+}
+
+.live-sales-notification__icon {
+	display: inline-block;
+	line-height: 1;
+	font-size: 14px;
+}
+
+.live-sales-notification__icon svg {
+	vertical-align: -0.125em;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+}
+
+@-webkit-keyframes fadeInLeft {
+	from {
+	  opacity: 0;
+	  -webkit-transform: translate3d(-100%, 0, 0);
+	  transform: translate3d(-100%, 0, 0);
+	}
+
+	to {
+	  opacity: 1;
+	  -webkit-transform: translate3d(0, 0, 0);
+	  transform: translate3d(0, 0, 0);
+	}
+  }
+  @keyframes fadeInLeft {
+	from {
+	  opacity: 0;
+	  -webkit-transform: translate3d(-100%, 0, 0);
+	  transform: translate3d(-100%, 0, 0);
+	}
+
+	to {
+	  opacity: 1;
+	  -webkit-transform: translate3d(0, 0, 0);
+	  transform: translate3d(0, 0, 0);
+	}
+  }
+  .animate__fadeInLeft {
+	-webkit-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+  }
+
+  @-webkit-keyframes fadeOutLeft {
+	from {
+	  opacity: 1;
+	}
+
+	to {
+	  opacity: 0;
+	  -webkit-transform: translate3d(-100%, 0, 0);
+	  transform: translate3d(-100%, 0, 0);
+	}
+  }
+  @keyframes fadeOutLeft {
+	from {
+	  opacity: 1;
+	}
+
+	to {
+	  opacity: 0;
+	  -webkit-transform: translate3d(-100%, 0, 0);
+	  transform: translate3d(-100%, 0, 0);
+	}
+  }
+  .animate__fadeOutLeft {
+	-webkit-animation-name: fadeOutLeft;
+	animation-name: fadeOutLeft;
+  }
+
+@media ( max-width: 1200px ) {
+	.live-sales-notification {
+		max-width: 50%;
+	}
+}
+
+@media ( max-width: 991px ) {
+	.live-sales-notification {
+		max-width: 60%;
+	}
+}
+
+@media ( max-width: 768px ) {
+	.live-sales-notification {
+		bottom: 0;
+		left: 0;
+		max-width: 100%;
+		border-radius: 0;
+		padding-left: 10px;
+	}
+}
