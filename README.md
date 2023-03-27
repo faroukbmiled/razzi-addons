@@ -1,2 +1,2 @@
 # razzi-addons
-optimizing razzi's widgets
+optimizing razzi theme's widgets
